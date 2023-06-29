@@ -6,27 +6,13 @@ namespace DirectoryManager
     {
         static void Main(string[] args)
         {
-            FileRemover("C:\\Temp\\testfolder");
+            string path = "D:\\temp\\testfolder";
+            RecursiveFileRemover(path);
         }
 
-        public static void FileRemover(string folderPath)
+        public static void RecursiveFileRemover(string folderPath)
         {
             var dirInfo = new DirectoryInfo(folderPath);
-            foreach (DirectoryInfo dir in dirInfo.GetDirectories())
-            {
-
-                try
-                {
-                    if (DateTime.UtcNow.Subtract(dir.LastAccessTimeUtc).Minutes > 1)
-                    {
-                        dir.Delete(true);
-                    }
-                }
-                catch (Exception e)
-                {
-                    Console.WriteLine(e.ToString());
-                }
-            }
             foreach (FileInfo file in dirInfo.GetFiles())
             {
                 try
@@ -35,6 +21,24 @@ namespace DirectoryManager
                     {
                         file.Delete();
                     }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.ToString());
+                }
+            }
+            if (dirInfo.GetDirectories().Count() > 0)
+            {
+                foreach (DirectoryInfo dir in dirInfo.GetDirectories())
+                {
+                    RecursiveFileRemover(dir.FullName);
+                }
+            }
+            if (dirInfo.GetDirectories().Count() == 0 && dirInfo.GetFiles().Count() == 0)
+            {
+                try
+                {
+                    dirInfo.Delete(true);
                 }
                 catch (Exception e)
                 {

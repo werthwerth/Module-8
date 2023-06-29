@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(RecursiveSizeCalculator("D:\\temp\\testfolder"));
+            string path = "D:\\temp\\testfolder";
+            Console.WriteLine(RecursiveSizeCalculator(path));
         }
 
         public static long RecursiveSizeCalculator(string folderPath)

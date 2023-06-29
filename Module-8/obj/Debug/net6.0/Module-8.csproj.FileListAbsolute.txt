@@ -1,0 +1,15 @@
+C:\Users\telep\Source\Repos\Module-8\Module-8\obj\Debug\net6.0\Module-8.csproj.AssemblyReference.cache
+C:\Users\telep\Source\Repos\Module-8\Module-8\obj\Debug\net6.0\Module-8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\telep\Source\Repos\Module-8\Module-8\obj\Debug\net6.0\Module-8.AssemblyInfoInputs.cache
+C:\Users\telep\Source\Repos\Module-8\Module-8\obj\Debug\net6.0\Module-8.AssemblyInfo.cs
+C:\Users\telep\Source\Repos\Module-8\Module-8\obj\Debug\net6.0\Module-8.csproj.CoreCompileInputs.cache
+C:\Users\telep\Source\Repos\Module-8\Module-8\bin\Debug\net6.0\Module-8.exe
+C:\Users\telep\Source\Repos\Module-8\Module-8\bin\Debug\net6.0\Module-8.deps.json
+C:\Users\telep\Source\Repos\Module-8\Module-8\bin\Debug\net6.0\Module-8.runtimeconfig.json
+C:\Users\telep\Source\Repos\Module-8\Module-8\bin\Debug\net6.0\Module-8.dll
+C:\Users\telep\Source\Repos\Module-8\Module-8\bin\Debug\net6.0\Module-8.pdb
+C:\Users\telep\Source\Repos\Module-8\Module-8\obj\Debug\net6.0\Module-8.dll
+C:\Users\telep\Source\Repos\Module-8\Module-8\obj\Debug\net6.0\refint\Module-8.dll
+C:\Users\telep\Source\Repos\Module-8\Module-8\obj\Debug\net6.0\Module-8.pdb
+C:\Users\telep\Source\Repos\Module-8\Module-8\obj\Debug\net6.0\Module-8.genruntimeconfig.cache
+C:\Users\telep\Source\Repos\Module-8\Module-8\obj\Debug\net6.0\ref\Module-8.dll
